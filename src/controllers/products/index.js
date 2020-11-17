@@ -11,7 +11,7 @@ const products = () => ({
             id,
             brand,
             description,
-            image,
+            image: `http://${image}`,
             price,
             sale: isPalindromic ? price * 0.5 : price
           });
